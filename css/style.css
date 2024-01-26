@@ -1,0 +1,63 @@
+* {
+  font-family: "Verdana", sans-serif;
+}
+
+.main-div-here {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-main {
+  font-size: 90px;
+  text-decoration: underline;
+}
+
+.main-list-recete,
+.list-recete {
+  text-align: center;
+  background-color: #ffe5da;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 900px;
+  height: 100vh;
+}
+
+.list-recete a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* here are the pizza and rest */
+.pizza-title {
+  font-size: 50px;
+}
+
+.main-pizza-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe5da;
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ingredients {
+  width: 450px;
+}
+.ingredients h3 {
+  text-align: center;
+}
+
+.preparation {
+  width: 450px;
+}
+.preparation h3 {
+  text-align: center;
+}
